@@ -1,8 +1,6 @@
 import BarChart from "assets/components/BarChart";
 import DataTable from "assets/components/DataTable";
 import DonutChart from "assets/components/DonutChart";
-import Footer from "assets/components/Footer";
-import Navbar from "assets/components/Navbar";
 
 export default function Dashboard() {
   return (
