@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Chart from "react-apexcharts";
+import ReactApexChart from "react-apexcharts";
 import { SaleSuccess } from "../types/sale";
 import { round } from "../utils/format";
 import { BASE_URL } from "../utils/requests";
@@ -57,7 +57,7 @@ export default function BarChart() {
   };
 
   return (
-    <Chart
+    <ReactApexChart
       options={{ ...options, xaxis: chartData.labels }}
       series={chartData.series}
       type="bar"
